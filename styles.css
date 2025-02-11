@@ -1,0 +1,72 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #393E46;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #4ECCA3;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
+}
+
+/* Style the button element */
+.btn {
+  display: block;              /* Make the button take its own block space */
+  margin: 20px auto;           /* Center the button horizontally with auto margins */
+  padding: 12px 24px;          /* Adequate padding for a comfortable click area */
+  background-color: #4ECCA3;   /* A pleasing background color */
+  color: #232931;              /* Contrast text color */
+  border: none;                /* Remove default border */
+  border-radius: 8px;          /* Slightly rounded corners */
+  font-size: 1.5rem;           /* Increase font size for readability */
+  text-transform: uppercase;   /* Uppercase letters for a bold look */
+  letter-spacing: 1px;         /* Spacing between letters */
+  cursor: pointer;             /* Cursor changes to pointer on hover */
+  transition: background-color 0.3s ease, transform 0.3s ease;  /* Smooth transitions */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  /* A subtle shadow for depth */
+  text-align: center;          /* Center the text inside the button */
+}
+
+/* Hover effect for the button */
+.btn:hover {
+  background-color: #3da282;   /* A slightly darker shade on hover */
+  transform: translateY(-3px); /* Lifts the button a bit when hovered */
+}
+
+/* If you keep the anchor inside, ensure it inherits the button styles */
+.btn a {
+  text-decoration: none; /* Remove the default underline */
+  color: inherit;        /* Inherit the color from the parent button */
+  display: block;        /* Make the link fill the button */
+}
